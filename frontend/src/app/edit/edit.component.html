@@ -1,0 +1,9 @@
+<section class="add-task-section">
+<h2>Edit  Task</h2>
+
+<div class="add-task-form">
+  <input name = "tasktitle" type="text" placeholder="Task Title" [(ngModel)]="taskTitle" />
+  <input name = "taskDscrption" type="text" placeholder="Task Description" [(ngModel)]="taskDescription" />
+  <button (click)="updateTask()">Update Task</button>
+</div>
+</section>
