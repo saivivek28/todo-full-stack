@@ -1,5 +1,7 @@
+<div class = "head">
 <h2 class="title">📋 My Tasks</h2>
-
+<button class="add-btn" (click) = "logout()">Log Out</button>
+</div>
 <div class="task-container">
   <div class="task-card" *ngFor="let task of tasks">
     <h3>{{ task.task_title }}</h3>
