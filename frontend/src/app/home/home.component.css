@@ -11,6 +11,11 @@
   flex-wrap: wrap;
   gap: 20px;
 }
+.head{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
 /* Each task card */
 .task-card {
