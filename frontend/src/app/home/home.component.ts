@@ -54,6 +54,9 @@ export class HomeComponent {
   edit_task(id:string){
     this.router.navigate(['/update', id]);
   }
+  logout(){
+    this.router.navigate(['login']);
+  }
  delete_task(id: string) {
   this.http.delete(`http://localhost:5000/delete/${id}`).subscribe({
     next: (res) => {
